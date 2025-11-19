@@ -1,46 +1,133 @@
-*{
-    margin:0;
-    padding:0;
-    font-family: popins, sans-serif;
-    box-sizing:border-box;
-
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
 }
+
 .container {
     height: 100vh;
     width: 100%;
-    background-image: url(images/Cristmaz.jpg);
-    background-size: cover;       /* Ensures image covers the entire container */
-    background-position: center;  /* Keeps the image centered */
-    background-repeat: no-repeat; /* Prevents tiling */
-    padding: 0 8px;
+    background-image: url("images/Cristmaz.jpg");
+    background-size: cover;          /* Fit full screen */
+    background-position: center;     /* Keep image centered */
+    background-repeat: no-repeat;    /* Prevent repeating */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    position: relative;
 }
 
+/* Logo styling */
 .logo {
-    height: 80px;
-    width: 120px;
-    margin-top: 20px;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    height: 100px;
+    width: auto;
     cursor: pointer;
 }
+
+/* Main content */
+.card {
+    width: 90%;
+    max-width: 780px;
+    margin: 20px;
+    background: rgba(255,255,255,0.06);
+    border-radius: 16px;
+    padding: 36px;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border: 1px solid rgba(255,255,255,0.08);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.45);
+}
+
 .content {
-    top: auto;
-    position: absolute;
-    transform: translateY(-50%);
-    color: #fff;  
-}
-.content h1 {
-            font-size: 64px;
-            font-weight: 600;
-}
-.content h1 span{
-    color:#ff3753;
+    color: #fff;
+    text-align: center;
 }
 
-.content button
-{
+.lead {
+    font-size: 20px;
+    margin-bottom: 12px;
+    opacity: 0.95;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.title span {
+    color: #ff3753;
+}
+
+/* Timer section */
+.launch-time {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin: 28px 0;
+    flex-wrap: wrap;
+}
+
+.time-box {
+    background: rgba(255,255,255,0.03);
+    padding: 14px 18px;
+    min-width: 88px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+}
+
+.time {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.time-box span {
+    font-size: 13px;
+    text-transform: uppercase;
+    opacity: 0.9;
+}
+
+.launched {
+    font-size: 22px;
+    padding: 16px;
+}
+
+/* Button styling */
+.actions { margin-top: 18px; }
+
+.learn {
     background: transparent;
-    border: 2px s;
+    border: 2px solid rgba(255,255,255,0.9);
+    outline: none;
+    padding: 10px 20px;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.25s;
+}
 
+.learn:hover { background-color: rgba(255,255,255,0.08); transform: translateY(-2px); }
 
-    
+.learn img { width: 15px; margin-left: 10px; }
 
+.note { margin-top: 14px; color: rgba(255,255,255,0.9); font-size: 14px; opacity: 0.95; }
+
+/* Responsive tweaks */
+@media (max-width: 520px) {
+    .title { font-size: 34px; }
+    .time { font-size: 30px; }
+    .card { padding: 22px; }
 }
