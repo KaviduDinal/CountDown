@@ -22,6 +22,7 @@
 ## Project Structure
 📁 Jingle Cart/
 │
+
 ├── 📁 images/ # All project images and graphics
 
 ├── 📄 README.md # Project documentation
@@ -29,3 +30,4 @@
 ├── 📄 index.html # Main HTML file
 
 └── 📄 style.css # Custom CSS styling
+
