@@ -2,6 +2,7 @@
 
 **Jingle Cart** is an upcoming festive web application designed for the Christmas season. This project aims to bring the holiday spirit online with a clean, interactive, and cheerful user interface, perfect for showcasing Christmas-themed products and offers. Stay tuned — the app is coming soon! 🎅🎁
 
+
 ---
 
 ## Project Overview
