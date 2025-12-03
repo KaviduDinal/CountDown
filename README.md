@@ -10,7 +10,6 @@
 - **Status:** Coming Soon  
 
 ---
-
 ## Features (Planned)
 - Christmas-themed UI with vibrant colors and animations  
 - Product showcase and festive offers  
