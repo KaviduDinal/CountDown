@@ -4,7 +4,6 @@
 
 ---
 
-
 ## Project Overview
 - **Platform:** Web application  
 - **Purpose:** To provide a fun, engaging, and festive shopping experience for Christmas  
