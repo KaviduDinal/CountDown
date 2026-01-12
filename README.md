@@ -8,7 +8,6 @@
 - **Platform:** Web application  
 - **Purpose:** To provide a fun, engaging, and festive shopping experience for Christmas  
 - **Status:** Coming Soon  
-
 ---
 ## Features (Planned)
 - Christmas-themed UI with vibrant colors and animations  
